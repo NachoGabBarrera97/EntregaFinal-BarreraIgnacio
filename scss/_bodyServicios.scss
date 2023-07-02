@@ -10,11 +10,13 @@
         .servicios__tit{
             font-size:30px;
             text-decoration: underline;
+            font-family: titulos;
         }
         .servicios__p{
             font-size: 15px;
             padding-top:20px;
             padding-bottom: 5px;
+            font-family: textos;
         }
     }
     .servicios__comedia{
@@ -25,6 +27,7 @@
             font-size:25px ;
             padding-bottom:20px;
             color:white;
+            font-family: titulos;
         }
         .servicios__imgStyle{
             height: 70%;
@@ -36,6 +39,7 @@
             padding-top:10px;
             font-size:15px;
             color: white;
+            font-family: textos;
         }
     }
     .servicios__musica{
@@ -46,6 +50,7 @@
             font-size:25px ;
             padding-bottom:20px;
             color:white;
+            font-family: titulos;
         }
         .servicios__imgStyle{
             height: 70%;
@@ -57,6 +62,7 @@
             padding-top:10px;
             font-size:15px;
             color: white;
+            font-family: textos;
         }
     }
     .servicios__accesorios{
@@ -67,6 +73,7 @@
             font-size:25px ;
             padding-bottom:20px;
             color:white;
+            font-family: titulos;
         }
         .servicios__imgStyle{
             height: 70%;
@@ -78,6 +85,7 @@
             padding-top:10px;
             font-size:15px;
             color: white;
+            font-family: textos;
         }
     }
     .servicios__final{
@@ -85,7 +93,7 @@
         height: 5%;
         .servicios__finalP{
             font-size:20px;
-            
+            font-family: textos;
         }
         
     }
