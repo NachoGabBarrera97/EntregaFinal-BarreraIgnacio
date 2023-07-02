@@ -1,0 +1,92 @@
+.servicios{
+    height: 2000px;
+    width: 100%;
+    background-color: rgba(5, 211, 248,0.5);
+    .servicios__intro{
+        text-align: center;
+        height: 5%;
+        width: 100%;    
+
+        .servicios__tit{
+            font-size:30px;
+            text-decoration: underline;
+        }
+        .servicios__p{
+            font-size: 15px;
+            padding-top:20px;
+            padding-bottom: 5px;
+        }
+    }
+    .servicios__comedia{
+        text-align: center;
+        height: 30%;
+        width: 100%;
+        .servicios__tit{
+            font-size:25px ;
+            padding-bottom:20px;
+            color:white;
+        }
+        .servicios__imgStyle{
+            height: 70%;
+            width: 95%;
+            padding-top:10px;
+            border-radius: 15%;
+        }
+        .servicios__p{
+            padding-top:10px;
+            font-size:15px;
+            color: white;
+        }
+    }
+    .servicios__musica{
+        text-align: center;
+        height: 30%;
+        width: 100%;
+        .servicios__tit{
+            font-size:25px ;
+            padding-bottom:20px;
+            color:white;
+        }
+        .servicios__imgStyle{
+            height: 70%;
+            width: 95%;
+            padding-top:10px;
+            border-radius: 15%;
+        }
+        .servicios__p{
+            padding-top:10px;
+            font-size:15px;
+            color: white;
+        }
+    }
+    .servicios__accesorios{
+        text-align: center;
+        height: 30%;
+        width: 100%;
+        .servicios__tit{
+            font-size:25px ;
+            padding-bottom:20px;
+            color:white;
+        }
+        .servicios__imgStyle{
+            height: 70%;
+            width: 95%;
+            padding-top:10px;
+            border-radius: 15%;
+        }
+        .servicios__p{
+            padding-top:10px;
+            font-size:15px;
+            color: white;
+        }
+    }
+    .servicios__final{
+        text-align: center;
+        height: 5%;
+        .servicios__finalP{
+            font-size:20px;
+            
+        }
+        
+    }
+}

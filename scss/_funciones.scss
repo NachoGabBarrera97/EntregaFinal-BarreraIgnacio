@@ -1,0 +1,147 @@
+.funciones{
+    background-color: rgba(5, 211, 248,0.5);
+    height: 2100px;
+    width: 100%;
+    padding-top:25px;
+    @include flex(row, wrap, space-evenly, start);
+    .funciones__1{
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        .funciones__h4{
+            font-size:25px;
+            padding-bottom:8px;
+            color: white;
+        }
+        .funciones__imgStyle{
+            width: 90%;
+            height: 80%;
+            border-radius: 15%;
+            border:solid black 4px;
+        }
+        .funciones__p{
+            color: white;
+            font-size: 14px;
+            margin-left:10px;
+            .a__p{
+                font-weight: bold;
+                color: black;
+                text-decoration: none;
+            }
+            .a__p:active{
+                
+            }
+            .a__p:visited{
+                
+            }
+            .a__p:hover{
+                color: darkblue;
+            }
+        }
+    }
+    .funciones__2{
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        .funciones__h4{
+            font-size:25px;
+            padding-bottom:8px;
+            color: white;
+        }
+        .funciones__imgStyle{
+            width: 90%;
+            height: 80%;
+            border-radius: 15%;
+            border:solid black 4px;
+        }
+        .funciones__p{
+            color: white;
+            font-size: 14px;
+            margin-left:10px;
+            .a__p{
+                font-weight: bold;
+                color: black;
+                text-decoration: none;
+            }
+            .a__p:active{
+                
+            }
+            .a__p:visited{
+                
+            }
+            .a__p:hover{
+                color: darkblue;
+            }
+        }
+    }
+    .funciones__3{
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        .funciones__h4{
+            font-size:25px;
+            padding-bottom:8px;
+            color: white;
+        }
+        .funciones__imgStyle{
+            width: 90%;
+            height: 80%;
+            border-radius: 15%;
+            border:solid black 4px;
+        }
+        .funciones__p{
+            color: white;
+            font-size: 14px;
+            margin-left:10px;
+            .a__p{
+                font-weight: bold;
+                color: black;
+                text-decoration: none;
+            }
+            .a__p:active{
+                
+            }
+            .a__p:visited{
+                
+            }
+            .a__p:hover{
+                color: darkblue;
+            }
+        }
+    }
+    .funciones__4{
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        color: white;
+        .funciones__h4{
+            font-size:25px;
+            padding-bottom:8px;
+        }
+        .funciones__imgStyle{
+            width: 90%;
+            height: 80%;
+            border-radius: 15%;
+            border:solid black 4px;
+        }
+        .funciones__p{
+            color: white;
+            font-size: 14px;
+            margin-left:10px;
+            .a__p{
+                font-weight: bold;
+                color: black;
+                text-decoration: none;
+            }
+            .a__p:active{
+                
+            }
+            .a__p:visited{
+                
+            }
+            .a__p:hover{
+                color: darkblue;
+            }
+        }
+    }
+}

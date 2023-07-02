@@ -1,0 +1,27 @@
+.contacto{
+    height:600px ;
+    @include flex (column, wrap, start, center);
+
+   
+    form{
+        @include flex(column, wrap, space-evenly,center);
+        height: 100%;
+        width: 50%;
+        background-color: rgba(5, 211, 248,0.5);
+        label{
+            padding: 20px;
+            
+        }
+        input{
+            width:50%;
+            height: 20px;
+        }
+        textarea{
+            width: 90%;
+            height: 50px;
+        }
+        button{
+            width: 50px;
+        }
+    }
+}

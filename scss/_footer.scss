@@ -1,0 +1,60 @@
+footer{
+    height: 160px;
+    width: 100%;
+    position:relative;
+    bottom:0;
+    background-color: #0f4571;
+    @include grid(1fr, 80% 1fr, end, end);
+    grid-template-areas: 
+    "redes"
+    "info";
+    .footer_redes{
+        grid-area:redes;    
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: end;
+        height: 100%;
+
+            .a{
+                
+                .fb, .wp, .ig, .yt{
+                    height: 30%;
+                    width: 8%;
+                    margin:0 10px;
+                    text-align: center;
+                    cursor:pointer;
+                    border-radius:50%;
+                    transition:all 0.5s ease;
+                    position: relative;
+                    bottom:-60px;
+                }
+                .fb:hover{
+                    border:7px solid #1877f2;
+                    box-shadow:0 0 15px #1877f2;
+                    transition: all 0.5s ease;
+                }
+                .wp:hover{
+                    border:5px solid #25D366;
+                    box-shadow:0 0 15px #25D366;
+                    transition: all 0.5s ease;
+                }
+                .ig:hover{
+                    border:5px solid purple;
+                    box-shadow:0 0 15px purple;
+                    transition: all 0.5s ease;
+                }
+                .yt:hover{
+                    border:5px solid red;
+                    box-shadow:0 0 15px red;
+                    transition: all 0.5s ease;
+                }
+            }
+        }
+    .info{
+        grid-area: info;
+        text-align: center;
+        .info__p{
+            color:white;
+        }
+    }
+    }

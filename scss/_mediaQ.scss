@@ -1,0 +1,408 @@
+@media screen and (min-width: 700px) and (max-width: 1024px){
+
+    //header//
+    header{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:1fr;
+        grid-template-areas:
+        "logo tit li";
+        .header__1{
+            .header__imgStyle{
+                width: 60%;
+                height: 100%;
+            }
+        }
+        .header__2{
+            display: block;
+            width: 100%;
+            height: 100%;
+            @include flex(row, wrap, space-evenly, center);
+            h1{
+                color: white;
+                display: block;
+                text-align: center;
+            }
+        }
+        .header__3{
+            height: 100%;
+            @include flex(column, wrap, space-evenly, center);
+            ul{
+                @include flex(column, wrap, space-evenly, center);
+                li{
+                    font-size:15px;
+                    padding: 5px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+    //main//
+    main{
+        height: 825px;
+        .main__img{
+            height: 60%;
+            .main__imgStyle{
+                height: 100%;
+            }
+        }
+    }
+
+    //funciones//
+
+    .funciones{
+        height: 1000px;
+        .funciones__1{
+            width: 50%;
+            height: 50%;
+            .funciones__h4{
+                
+
+            }
+            .funciones__imgStyle{
+
+            }
+        }
+        .funciones__2{
+            width: 50%;
+            height: 50%;
+            .funciones__h4{
+
+            }
+            .funciones__imgStyle{
+                
+            }
+        }
+        .funciones__3{
+            width: 50%;
+            height: 50%;
+            .funciones__h4{
+
+            }
+            .funciones__imgStyle{
+                
+            }
+        }
+        .funciones__4{
+            width: 50%;
+            height: 50%;
+            .funciones__h4{
+
+            }
+            .funciones__imgStyle{
+                
+            }
+        }
+    }
+    //us//
+    .us{
+        .us__img{
+            height: 70%;
+            .us__imgStyle{
+                width: 70%;
+            }
+        }
+        .us__texto{
+            height: 30%;
+            .us__tit{
+
+            }
+            .us__p{
+
+            }
+        }   
+    }
+
+    //servicios//
+    .servicios{
+       
+        .servicios__intro{
+    
+            .servicios__tit{
+                
+            }
+            .servicios__p{
+               
+            }
+        }
+        .servicios__comedia{
+            @include flex(column, wrap, center, center);
+            .servicios__tit{
+                
+            }
+            .servicios__imgStyle{
+               width: 70%;
+            }
+            .servicios__p{
+               
+            }
+        }
+        .servicios__musica{
+            @include flex(column, wrap, center, center);
+            .servicios__tit{
+                
+            }
+            .servicios__imgStyle{
+                width: 70%;
+            }
+            .servicios__p{
+              
+            }
+        }
+        .servicios__accesorios{
+            @include flex(column, wrap, center, center);
+            .servicios__tit{
+            
+            }
+            .servicios__imgStyle{
+                width: 70%;
+            }
+            .servicios__p{
+               
+        }
+        .servicios__final{
+            
+            }
+        }
+    }
+    
+    //footer//
+    footer{
+        text-align: center;
+        position: relative;
+        .footer_redes{
+            width: 100%;
+            align-items: end;
+            .a{
+
+                .fb, .wp, .ig, .yt{
+                    height: 30%;
+                    width: 5%;
+                    position: relative;
+                }
+            }
+        }
+        .info{  
+            .info__p{
+                font-size: 18px;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 1025px){
+
+    //header//
+    header{
+        grid-template-columns:1fr 1fr 50%;
+        grid-template-rows:1fr;
+        grid-template-areas:
+        "logo tit li";
+        .header__1{
+            @include flex(row, wrap, start, start);
+            .header__imgStyle{
+                height: 100%;
+                width: 45%;
+            }
+        }
+        .header__2{
+            display: block;
+            h1{
+                color: white;
+                display: block;
+                text-align: end;
+            }
+        }
+        .header__3{
+            @include flex(row, wrap, end, center);
+            ul{
+                li{
+                    font-size: 18px;
+                    padding:8px;
+                    margin: 15px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    main{
+        height: 900px;
+        .main__img{
+            height:60%;
+            .main__imgStyle{
+                height: 100%;
+            }
+        }
+        .main__fechas{
+            height: 350px;
+        }
+    }
+
+    //funciones//
+    .funciones{
+        height: 500px;
+        .funciones__1{
+            width: 25%;
+            height: 90%;
+            .funciones__h4{
+                
+
+            }
+            .funciones__imgStyle:hover{
+                transition: 0.7s;
+                transform: scale(1.1);
+            }
+        }
+        .funciones__2{
+            width: 25%;
+            height: 90%;
+            .funciones__h4{
+
+            }
+            .funciones__imgStyle:hover{
+                transition: 0.7s;
+                transform: scale(1.1);
+            }
+        }
+        .funciones__3{
+            width: 25%;
+            height: 90%;
+            .funciones__h4{
+
+            }
+            .funciones__imgStyle:hover{
+                transition: 0.7s;
+                transform: scale(1.1);
+            }
+        }
+        .funciones__4{
+            width: 25%;
+            height: 90%;
+            .funciones__h4{
+
+            }
+            .funciones__imgStyle:hover{
+                transition: 0.7s;
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    //us//
+    .us{
+        @include grid(50% 1fr, 1fr, start, start);
+        height: 600px;
+        .us__img{
+            padding-top:40px;
+            .us__imgStyle{
+                width: 60%;
+                height: 120%;
+            }
+            .us__imgStyle:hover{
+                transition: 0.7s;
+                transform: scale(1.2);
+            }
+        }
+        .us__texto{
+            height: 55%;
+            text-align: center;
+            .us__tit{
+                padding-top:20px;
+                padding-bottom:20px;
+                font-size:30px;
+            }
+            .us__p{
+                padding-top:40px;
+                font-size:20px;
+            }
+        }
+    }
+
+    //servicios//
+    .servicios{
+        .servicios__intro{
+            
+            .servicios__tit{
+            font-size:35px;   
+            }
+            .servicios__p{
+               font-size: 20px;
+            }
+        }
+        .servicios__comedia{
+            @include flex(column, wrap, center, center);
+            .servicios__tit{
+                
+            }
+            .servicios__imgStyle{
+               width: 40%;
+            }
+            .servicios__imgStyle:hover{
+                transition: 0.7s;
+                transform: scale(1.2);
+            }
+            .servicios__p{
+               
+            }
+        }
+        .servicios__musica{
+            @include flex(column, wrap, center, center);
+            .servicios__tit{
+                
+            }
+            .servicios__imgStyle{
+                width: 40%;
+            }
+            .servicios__imgStyle:hover{
+                transition: 0.7s;
+                transform: scale(1.2);
+            }
+            .servicios__p{
+              
+            }
+        }
+        .servicios__accesorios{
+            @include flex(column, wrap, center, center);
+            .servicios__tit{
+            
+            }
+            .servicios__imgStyle{
+                width: 40%;
+            }
+            .servicios__imgStyle:hover{
+                transition: 0.7s;
+                transform: scale(1.2);
+            }
+            .servicios__p{
+               
+        }
+        .servicios__final{
+            
+            }
+        }
+    }
+
+    //footer//
+    footer{
+        text-align: center;
+
+        .footer_redes{
+            width: 100%;
+            align-items: center;
+            .a{
+
+                .fb, .wp, .ig, .yt{
+                    height: 30%;
+                    width: 3%;
+                    margin: 15px;
+                }
+            }
+        }
+        .info{  
+            .info__p{
+                font-size: 18px;
+            }
+        }
+    }
+}
