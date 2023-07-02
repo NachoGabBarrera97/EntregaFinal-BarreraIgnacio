@@ -97,7 +97,7 @@ main .main__fechas .main__todas a:hover {
 
 .funciones {
   background-color: rgba(5, 211, 248, 0.5);
-  height: 2100px;
+  height: 2700px;
   width: 100%;
   padding-top: 25px;
   display: flex;
@@ -235,7 +235,7 @@ main .main__fechas .main__todas a:hover {
 }
 
 .servicios {
-  height: 2000px;
+  height: 2900px;
   width: 100%;
   background-color: rgba(5, 211, 248, 0.5);
 }
